@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $("#hideLogin").click(function(){
+    $("#loginForm").hide();
+    $("#registerForm").show();
+    $('#inputContainer').css('margin-top','0px');
+  });
+  $("#hideRegister").click(function(){
+    $("#registerForm").hide();
+    $('#loginForm').show();
+    $('#inputContainer').css('margin-top','50px');
+  });
+});
